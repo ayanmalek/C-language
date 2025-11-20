@@ -9,13 +9,13 @@ int main(){
 	printf("\n Enter marks of subject out of 100 :");
 	scanf("%d",&sub);
 	
-	// find grade using ternary operator
+	// finding grade using ternary operator
 	grade = (sub >= 90 && sub <= 100) ? 'A' :
 	        (sub >= 70 && sub < 90)  ? 'B' :
 	        (sub >= 50 && sub < 70)  ? 'C' :
 	        (sub >= 35 && sub < 50)  ? 'D' : 'F';
     	
-    // print message based on grade
+    // printing message based on grade
     switch(grade)
 	{
 		case 'A': printf("\n Grade A. Excellent work"); break;
