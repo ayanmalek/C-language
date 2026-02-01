@@ -1,0 +1,7 @@
+#include<stdio.h>
+#include<conio.h>
+struct s
+{
+	int rol,marks;
+	char name[20];
+}

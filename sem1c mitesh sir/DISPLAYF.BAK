@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+void main ()
+{  clrscr();
+	printf("***************************************");
+	printf("Roll Num:18");
+	printf("Name : Dhey Patel");
+	printf("Class: fy bca a ");
+	printf("***************************************");
+
+	getch();
+
+
+
+
+}
+
+

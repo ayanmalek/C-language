@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int fact=1,n,i=1;
+	clrscr();
+	printf("Enter Number:");
+	scanf("%d",&n);
+
+	while(i<n)
+	{
+
+	 fact = fact*n;
+	 n--;
+
+	}
+	 printf("= %d",fact);
+
+	getch();
+}

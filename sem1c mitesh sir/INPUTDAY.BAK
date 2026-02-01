@@ -1,0 +1,34 @@
+#include<stdio.h>
+#include<conio.h>
+ void main()
+{  int day;
+clrscr();
+	printf("entr number between 1 to 7 ");
+	scanf("%d",&day);
+	if(day==1)
+	printf("today is monday ");
+
+	if(day==2)
+	printf("today is tusday ");
+
+	else if(day==3)
+	printf("today is wedday ");
+
+       else if(day==4)
+	printf("today is thursday ");
+
+	else if(day==5)
+	printf("today is friday ");
+
+	else if(day==6)
+	printf("today is saterday ");
+
+	else if(day==7);
+	printf("today is sunday ");
+
+	else
+	printf("invalid number please enter number between 1 to 7");
+
+	getch();
+
+}

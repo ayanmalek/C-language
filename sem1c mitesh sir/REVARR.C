@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    int i,a[5],b[5],n=4 ;
+
+    clrscr();
+
+    for(i=0;i<=4;i++)
+    {
+       printf(" Enter number [%d]:",i);
+       scanf("%d",&a[i]);
+
+    } for(i=0;i<=4;i++)
+    {
+       b[n]=a[i];
+       n--;
+
+    }
+    for(i=0;i<=4;i++)
+    {
+	printf("\n  reverse arrary is[%d]:%d",i , b[i]);
+
+    }
+    getch();
+}

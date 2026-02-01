@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    int month;
+    clrscr();
+    printf("enter number beatween 1 to 12 ");
+    scanf("%d",&month);
+    switch(month)
+
+ {      case 1:print("jan");break;
+	case 2:print("feb");break;
+	case 3:print("march");break;
+	case 4:print("april");break;
+	case 5:print("may");break;
+	 case 6:print("jun");break;
+	 case 7:print("july");break;
+	 case 8:print("aug");break;
+	 case 9:print("sup");break;
+	  case 10:print("oct");break;
+	  case 11:print("nav");break;
+	  case 12:print("dec");break;
+
+	default:printf("invalid month number ");
+}
+	getch();
+}

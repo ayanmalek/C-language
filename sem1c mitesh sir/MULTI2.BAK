@@ -1,0 +1,24 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+
+{
+	int row, col, times;
+	clrscr();
+
+	printf("Enter the number:");
+	scanf("%d",&times);
+
+	for(row = 1;row<=times; row++){
+		for(col=times;col>=row;col--)
+		{
+		print(" ");
+		}
+		for(col=1;col<=row;col++)
+		{printf("%d",col);
+		}
+		printf("\n");
+
+}
+
+}

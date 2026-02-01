@@ -1,0 +1,39 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+   int rno,sub1,sub2,sub3,total=0,count=0;
+   char sn[100];
+   float pre=0;
+   clrscr();
+    printf("Enter Student roll number:");
+    scanf("%d",&rno);
+
+    flushall();
+
+    printf("Enter Student Name:");
+    scanf("%s",&sn);
+
+    flushall();
+
+    printf("Enter the marks of sub1:");
+    scanf("%d",&sub1);
+
+    printf("Enter the marks of sub2:");
+    scanf("%d",&sub2);
+
+    printf("Enter the marks of sub3:");
+    scanf("%d",&sub3);
+
+    if (sub1<40)
+	count++;
+    if (sub<40)
+	count++;
+    if (sub3<40)
+	count++;
+
+
+
+
+   getch();
+}

@@ -1,0 +1,36 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{ int n ;
+	clrscr();
+	printf("enter an intiger number ");
+	scanf("%d",&n);
+
+	n=abs(n);
+
+	if (n<=9)
+		printf("number is one digit number \n ");
+
+	else if (n>=10 && n<=99)
+		printf("number is two  digit number \n ");
+
+	else if (n>=100 && n<=999)
+		printf("number is three digit number \n ");
+
+	else if (n>=1000 && n<=9999)
+		printf("number is four digit number \n ");
+
+       else if (n>=10000 && n<=99999)
+		printf("number is five digit number \n ");
+
+	else
+	    printf("given number has more then five digit \n ");
+
+	    getch();
+
+
+
+
+
+
+}

@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+void main()
+{
+	int len=0;
+	char s[100];
+	clrscr();
+	printf("enter string:");
+	gets(s);
+
+	len=strlen(s);
+	printf(" total char=%d",len);
+	getch();
+}
+
+
+
+
+

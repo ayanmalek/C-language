@@ -1,0 +1,48 @@
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+ void main()
+ {
+    int i,up=0,low=0,num=0,spe=0,spa=0,n=0;
+    char str[100];
+    clrscr();
+
+    printf("enter string:");
+    gets(str);
+
+    n=strlen(str);
+    {
+	 for (i=0;i<n;i++)
+	 {
+	    if(str[i]>='A'&& str[i]>='Z')
+		up++;
+	    else if (str[i]>='a' && str[i]<='z')
+		low++;
+	    else if (str[i]>=0 && str[i]<=9)
+		num++;
+	    else if (str[i]==" ")
+		spa++;
+	     else
+		spe++;
+
+	 }
+	 printf("\n upper case letter : %d",up);
+	 printf("\n lower case letter : %d",low);
+	 printf("\n number : %d",num);
+	 printf("\n special character : %d",spe);
+	 printf("\n total space : %d",spa);
+
+ getch();
+}
+
+
+
+
+
+
+
+
+
+
+
+
