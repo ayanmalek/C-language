@@ -1,0 +1,65 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+
+{
+ FILE *fptr;
+ char ch;
+ int b=0,u=0,l=0,s=0;
+  clrscr();
+  fptr=(fopen("E:\\stud.txt","r"));
+  while(l)
+  {
+   ch=fgetc(fptr);
+   if (ch==EOF)
+   {
+    break;
+   }
+   else
+   {
+    if(ch==' ')
+    {
+     b++;
+    }
+    else if(ch>'A' && ch<='Z')
+    {
+     u++;
+    }
+    else if(ch>='a' && ch<='z')
+    {
+     l++;
+    }
+    else
+    {
+     s++;
+    }
+   }
+  }
+printf("totle special ch :: %d ",s);
+printf("\ntotle no of blank :: %d ",b);
+printf("\ntotle no of upper case :: %d ",u);
+printf("\ntotle no of lower case :: %d ",l);
+
+getch();
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

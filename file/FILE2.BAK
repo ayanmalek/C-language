@@ -1,0 +1,54 @@
+
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+void main()
+
+{
+
+  FILE *fptr;
+  char a;
+  clrscr();
+
+
+  fptr=(fopen("e:\stud1.txt","r"));
+
+
+if(fptr==NULL)
+{
+ printf("can't open file ... ");
+
+}
+else
+{
+ a=getc(fptr);
+ while(a!=EOF)
+ {
+  printf("%c",a);
+  a=getc(fptr);
+ }
+}
+  fclose(fptr);
+  getch();
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

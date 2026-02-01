@@ -1,0 +1,52 @@
+#include<stdio.h>
+#include<conio.h>
+#include<stdlib.h>
+void main()
+{
+FILE *fptr;
+ int num;
+ char name[100];
+ char city[100];
+
+
+
+ fptr = (fopen("E:\\student1.txt","w"));
+
+ printf("Enter Name::");
+ scanf("%s",&name);
+
+ printf("Enter City::");
+ scanf("%s",&city);
+
+ printf("Enter Number::");
+ scanf("%d",&num);
+
+ fprintf(fptr,"Name :: %s",name);
+ fprintf(fptr,"\nCity :: %s",city);
+ fprintf(fptr,"\nNumber :: %d",num);
+
+ fclose(fptr);
+
+ getch();
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

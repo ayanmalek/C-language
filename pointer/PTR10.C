@@ -1,0 +1,52 @@
+#include<stdio.h>
+#include<conio.h>
+find(int * , int *);
+
+void main()
+
+{
+  int a,b,*ptr1,*ptr2;
+  ptr1=&a;
+  ptr2=&b;
+
+  printf("Enter number1 :: ");
+  scanf("%d",ptr1);
+
+  printf("\nEnter number2 :: ");
+  scanf("%d",ptr2);
+  find(ptr1,ptr2);
+
+  getch();
+
+}
+find(*ptr1,*ptr2)
+{
+ int sum=0;sub=0;
+ sum=*(ptr1) + *(ptr2);
+ sub=*(ptr1) - *(ptr2);
+ printf("\nThe sum of two number::%d",sum);
+ printf("\nThe Sub of two number::%d",sub);
+ return sum;
+ return sub;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
